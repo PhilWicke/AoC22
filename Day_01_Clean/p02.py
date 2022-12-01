@@ -11,4 +11,4 @@ for line in lines:
         vals.append(t_sum)
         t_sum=0
 
-print(max(vals))
+print(sum(sorted(vals, reverse=True)[:3]))
